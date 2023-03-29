@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    display:grid;
+    place-items: center;
+}
+
+h1 {
+    margin: 40px 0px;
+}
+
+section{
+    width:90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+article {
+    padding: 10px;
+    width:90%;
+    display: grid;
+    place-items: center;
+    row-gap: 12px;
+}
+
+article:hover{
+    border: 1px black solid;
+}
+
+img {
+    width:200px;
+}
+
+#ready {
+    margin-top: 50px;
+    font-size: 2rem;
+}
