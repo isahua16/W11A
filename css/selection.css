@@ -6,7 +6,7 @@
 
 body {
     font-family: sans-serif;
-    display:grid;
+    display: grid;
     place-items: center;
 }
 
@@ -15,9 +15,8 @@ h1 {
 }
 
 section{
-    width:90%;
+    width: 50%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
 }
 
 article {
@@ -33,19 +32,11 @@ a {
     color:black;
 }
 
-.selected {
-    border: 1px black solid;
-}
-
-article:hover{
-    border: 1px black solid;
-}
-
 img {
     width:200px;
 }
 
-#ready {
+#back {
     margin-top: 50px;
     font-size: 2rem;
 }
